@@ -9,8 +9,14 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <script>
-      setTimeout(function () { window.location = "https://itunes.apple.com/appdir"; }, 25);
-      window.location = "lottevn://";
+      document.location = 'lottevn://';
+      setTimeout( function()
+      {
+          if( confirm( 'You do not seem to have Your App installed, do you want to go download it now?'))
+          {
+            document.location = 'http://itunes.apple.com/us/app/yourAppId';
+          }
+      }, 300);
     </script>
   </head>
   <body>
