@@ -4,7 +4,7 @@
         "details": [
             {
                 "appID": "H7BD23WGVK.com.lotte.vec.staging",
-                "paths": [ "*"]
+                "paths": ["/iOS-Universal-Links/*"]
             }
         ]
     }
