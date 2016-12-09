@@ -5,6 +5,10 @@
             {
                 "appID": "L5FWK9555W.com.lotte.vec.staging",
                 "paths": ["*"]
+            },
+            {
+                "appID": "XU48A9V5H2.com.tigerteam.dev",
+                "paths": ["*"]
             }
         ]
     }
