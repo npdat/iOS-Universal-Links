@@ -7,6 +7,10 @@
                 "paths": ["*"]
             },
             {
+                "appID": "H7BD23WGVK.com.lotte.vec.staging",
+                "paths": ["*"]
+            },
+            {
                 "appID": "XU48A9V5H2.com.tigerteam.dev",
                 "paths": ["*"]
             }
